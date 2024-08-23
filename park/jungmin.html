@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삐용삐용 - 음주 측정 시스템</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #e8f0f2, #ffffff);
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            height: auto;
+            max-width: 600px;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h1 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        p {
+            font-size: 1.4em;
+            color: #555;
+            margin-top: 0;
+        }
+        #alcohol-value {
+            font-weight: bold;
+            color: #ff5722;
+            font-size: 3em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        #status-message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            display: none;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.9em;
+            color: #888;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .info-box {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffebee;
+            border: 1px solid #fdd;
+            border-radius: 8px;
+            font-size: 1em;
+            color: #333;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><img src="https://cdn-icons-png.flaticon.com/512/819/819540.png" height="40px" width="40px"> 음주 측정 <img src="https://cdn-icons-png.flaticon.com/512/819/819540.png" height="40px" width="40px"></h1>
+        <p>현재 측정값 : <span id="alcohol-value">0</span></p>
+        <div id="status-message"></div>
+        <div class="info-box">
+            <p><strong>안내</strong><span style="line-height:200%"><br></span>이용자의 음주 여부를 측정하기 위한 '삐용삐용' 시스템입니다. 음주 측정 결과를 확인하여 안전한 이동을 돕습니다.</p>
+        </div>
+        <button class="button" onclick="refreshData()">새로 고침</button>
+    </div>
+    <div class="footer">
+        © 2024 캡스톤다자인 밸류업 프로그램 < 전4들 > 팀
+    </div>
+
+    <script>
+        const serialPort = new WebSocket('ws://localhost:8080'); // WebSocket 서버 주소
+        const threshold = 400; // 혈중 알코올 농도 0.03%에 해당하는 PPM 값
+
+        serialPort.onmessage = function(event) {
+            const value = parseFloat(event.data);
+            document.getElementById('alcohol-value').textContent = value;
+
+            // 혈중 알코올 농도 0.03% 이상node일 경우 "불가능" 메시지, 이하일 경우 "가능" 메시지 표시
+            const statusMessage = document.getElementById('status-message');
+            if (value > threshold) {
+                statusMessage.textContent = "공유 모빌리티 대여가 불가능합니다";
+                statusMessage.style.color = '#ff0000';
+            } else {
+                statusMessage.textContent = "공유 모빌리티 대여가 가능합니다";
+                statusMessage.style.color = '#4caf50';
+            }
+            statusMessage.style.display = 'block';
+        };
+
+        function refreshData() {
+            serialPort.send('refresh');
+        }
+    </script>
+</body>
+</html>

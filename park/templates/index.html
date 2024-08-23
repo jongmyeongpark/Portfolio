@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헬멧 감지</title>
+    <style>
+        /* 이미지 크기를 줄이기 위한 CSS */
+        img {
+            max-width: 30%;  /* 이미지 크기를 50%로 줄임 */
+            height: auto;    /* 비율을 유지하면서 높이를 자동으로 조정 */
+        }
+    </style>
+</head>
+<body>
+    <h1>헬멧 감지</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <input type="submit" value="업로드">
+    </form>
+
+    {% if result_img %}
+        <h2>결과:</h2>
+        <img src="{{ result_img }}" alt="감지 결과">
+    {% endif %}
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헬멧 감지</title>
+</head>
+<body>
+    <h1>헬멧 감지</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <input type="submit" value="업로드">
+    </form>
+
+    {% if result_img %}
+        <h2>결과:</h2>
+        <img src="{{ result_img }}" alt="감지 결과">
+    {% endif %}
+</body>
+</html> -->
