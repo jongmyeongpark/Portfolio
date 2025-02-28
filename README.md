@@ -39,7 +39,7 @@ ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
 > - 대회 개요 : MORAI Sim에서 자율주행 차량을 목적지까지 주행 및 미션 수행 _(MACARON6.0)_
 > - 성과: 연구계획서 합격 및 우수상 [News](https://www.morai.ai/ko/post/%EB%AA%A8%EB%9D%BC%EC%9D%B4-%EB%94%94%EC%A7%80%ED%84%B8%ED%8A%B8%EC%9C%88-%EC%84%B1%EB%82%A8%EC%8B%9C-%EA%B8%B0%EB%B0%98-%EC%83%A4%ED%81%AC%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89%EB%8C%80%ED%9A%8C-%EC%84%B1%EB%A3%8C)
 > - 개발기간 : 2024.07.01.08-30
-> - 핵심 역할 : 도로 위 장애물, 신호등, 주차 공간 인식
+> - 핵심 역할 : 도로 위 정적 동적 객체 인식, 주차 공간 인식
 > - Language : Python
 > - Libraries : Numpy, OpenCV, Opend3D
 > - SLAM & LiDAR : FAST_LIO2
@@ -52,7 +52,7 @@ ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
 > - 대회 개요 : K-City에서 목적지까지 자율주행으로 주행(약 3km) 및 미션 수행 _(MACARON6.0)_
 > - 성과: 연구계획서 합격 (600만원 지원 및 금호타이어 스폰서링), 예선전 5위 통과, 본선전 완주
 > - 개발기간 : 2024.01.11-11.01
-> - 핵심 역할 : Vision팀장, 차선, 신호등 인지 및 Camera-LiDAR Calibration
+> - 핵심 역할 : Vision팀, 차선, 신호등 인지 및 Camera-LiDAR Calibration
 > - Language : Python, C++
 > - Libraries : Numpy, OpenCV, Pytorch, Open3D
 >> [Camera-LiDAR Calibration](https://github.com/minmaxHong/Camera-3DLiDAR_Calibration)<br>
