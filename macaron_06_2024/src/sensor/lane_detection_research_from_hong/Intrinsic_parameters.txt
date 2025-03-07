@@ -1,0 +1,13 @@
+[Program : DarkCamCalibrator]
+[Calib Zhang (opencv)]
+[Camera Info : [HD 1080p, logitech]
+
+rms = 2.184581
+fx = 597.646164
+fy = 597.646164
+cx = 320.000000
+cy = 240.000000
+k1 = 0.217550
+k2 = -0.974089
+p1 = 0.004613
+p2 = 0.007125

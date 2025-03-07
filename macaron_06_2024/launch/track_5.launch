@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <!-- <include file="$(find usb_cam)/launch/usb_cam.launch"> -->
+
+    <!-- </include> -->
+    <!-- <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch">
+    
+    </include> -->
+    <include file="$(find macaron_06)/launch/sensor_ready.launch">
+
+    </include>
+    <include file="$(find macaron_06)/launch/track_connect_car.launch">
+
+    </include>
+    <!-- <node name="mission_track_sh" pkg="macaron_6"  type="mission_track_sh.py"
+     /> -->
+    <!-- <node name="Cone_Classfier" pkg="macaron_6"  type="cone_classifier.py" 
+     /> -->
+    <!-- <node name="state_track_sh" pkg="macaron_6"  type="state_track_sh.py" -->
+     <!-- /> -->
+    <!-- <node name="state_track_2nd" pkg="macaron_6"  type="state_track_sh.py"
+     /> -->
+    <node name="rviz" pkg="rviz" type="rviz" 
+    args="-d $(find macaron_06)/rviz/track_sh.rviz" />
+
+    
+</launch>

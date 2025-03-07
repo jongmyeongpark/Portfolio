@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Start the rosbag recording -->
+    <node name="rosbag_recorder" pkg="rosbag" type="record" args="-O /home/macaron/catkin_ws/gps_bag/0809_traffic_left3_bag /ublox_gps/fix" output="screen" />
+
+    <!-- Start the record_combined_mp4.py script -->
+    <node name="record_combined_mp4" pkg="macaron_06" type="record_combined_mp4.py" output="screen" />
+</launch>

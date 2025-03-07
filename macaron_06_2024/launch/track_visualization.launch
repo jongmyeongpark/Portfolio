@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+
+    <node name="rviz" pkg="rviz" type="rviz" 
+    args="-d $(find macaron_06)/rviz/macaron6_track.rviz" />
+
+    <node name="visualization_track" pkg="macaron_06"  type="visualization_track.py"
+    output="screen"/>
+
+    
+</launch>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <!-- <include file="$(find ublox_gps)/launch/ublox_device.launch"> -->
+    <!-- <include file="$(find ntrip_ros)/launch/ntrip_ros.launch"> -->
+    <include file="$(find ublox_gps)/launch/ublox_zed-f9p_base.launch">
+    </include>
+    
+    <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch"> 
+    </include>
+    <!-- <include file="$(find e2box_imu)/launch/e2box_imu.launch"> 
+    </include>  -->
+
+    <!--include file="$(find usb_cam)/launch/usb_cam.launch"> 
+    </include> -->
+
+    <include file="$(find microstrain_inertial_driver)/launch/microstrain.launch"> `   
+        <arg name="params_file" value="/home/macaron/catkin_ws/src/microstrain_inertial/microstrain_inertial_driver/microstrain_inertial_driver_common/config/params.yml"/>
+    </include>
+
+    <!-- <node name="data_hub" pkg="macaron_06"  type="data_hub.py" output="log"/>  -->
+    <node name="data_hub_smc_location" pkg="macaron_06"  type="data_hub_smc_location.py" output="screen"/> 
+
+
+
+    
+</launch>

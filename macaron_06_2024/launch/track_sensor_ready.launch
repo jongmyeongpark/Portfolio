@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <!-- <include file="$(find ublox_gps)/launch/ublox_zed-f9p.launch">
+
+    </include> -->
+    <include file="$(find sick_tim)/launch/sick_tim571_2050101.launch">
+
+    </include>
+    <include file="$(find e2box_imu)/launch/e2box_imu.launch">
+
+    </include>
+    <node name="data_hub_track" pkg="macaron_06"  type="data_hub_track.py"
+     />
+
+
+    
+</launch>

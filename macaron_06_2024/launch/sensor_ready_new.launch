@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <include file="$(find ublox_gps)/launch/ublox_zed-f9p.launch">
+    </include>
+    
+    <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch"> 
+    </include>
+    <!-- <include file="$(find e2box_imu)/launch/e2box_imu.launch"> 
+    </include>  -->
+
+    <include file="$(find usb_cam)/launch/usb_cam.launch"> 
+    </include> 
+
+    <include file="$(find microstrain_inertial_driver)/launch/microstrain.launch"> `   
+        <arg name="params_file" value="/home/macaron/params.yml" />
+    </include>
+
+    <node pkg="macaron_06" type="lidar_dataprocess" name="lidar_cpp" />
+
+    <node name="data_hub" pkg="macaron_06"  type="data_hub.py" output="log"/> 
+
+
+    
+</launch>

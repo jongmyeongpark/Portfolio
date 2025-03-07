@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Start the rosbag play -->
+    <node name="rosbag_play" pkg="rosbag" type="play" args="-l /home/wt/다운로드/bag/gps_bag/0809_traffic_left2_bag.bag" output="screen" />
+
+    <!-- Start the record_video_combined_detection.py script -->
+    <node name="record_video_combined_detection" pkg="macaron_06" type="record_video_combined_detection.py" output="screen" />
+</launch>
+

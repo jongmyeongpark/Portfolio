@@ -1,0 +1,9 @@
+sensor_msgs/PointCloud2 data
+Header header
+int32[] clusters
+uint32[] clusterSize
+int32[] cones
+int32[] delivery
+int32[] person
+float32 minY
+float32 maxY

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    
+    <node name="Cone_uturn" pkg="macaron_06"  type="lidar2cam_uturn.py" output="screen"
+    />
+
+    <node name="advanced_cone_detection" pkg="macaron_06"  type="advanced_cone_detection.py" output="screen"
+    />
+    
+    <node name="tunnel_barrel_detection" pkg="macaron_06"  type="tunnel_barrel_detection.py" output="screen"
+    />
+
+</launch>

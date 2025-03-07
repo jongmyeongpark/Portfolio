@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- 노드 1: calibration_4tracking.py -->
+    <node name="calibration_4tracking" pkg="macaron_06" type="calibration_4tracking.py" output="screen">
+        <!-- 파라미터가 필요하다면 여기에 추가 -->
+    </node>
+
+    <!-- 노드 2: mission_track_wt_adv4.py -->
+    <node name="mission_track_wt_adv4" pkg="macaron_06" type="mission_track_wt_adv4.py" output="screen">
+        <!-- 파라미터가 필요하다면 여기에 추가 -->
+    </node>
+
+    <!-- 노드 3: multi_cam_4tracking.py -->
+    <node name="multi_cam_4tracking" pkg="macaron_06" type="multi_cam_4tracking.py" output="screen">
+        <!-- 파라미터가 필요하다면 여기에 추가 -->
+    </node>
+
+    <!-- 노드 4: lidar_cpp -->
+    <node name="lidar_cpp" pkg="macaron_06" type="lidar_cpp" output="screen">
+        <!-- 파라미터가 필요하다면 여기에 추가 -->
+    </node>
+</launch>
+
