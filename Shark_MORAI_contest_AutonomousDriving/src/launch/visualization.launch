@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+
+    <node name="rviz" pkg="rviz" type="rviz" 
+    args="-d $(find morai_2)/rviz/macaron5.rviz" />
+
+    <node name="visualization" pkg="morai_2"  type="visualization.py"
+    output="screen"/>
+
+    
+</launch>

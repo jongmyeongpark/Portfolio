@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <!-- <include file="$(find velodyne_pointcloud)/launch/32e_points.launch"> -->
+    <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch">
+    </include>
+
+    <node name="data_hub" pkg="morai_2"  type="data_hub.py" output="screen"
+     />
+
+</launch>
