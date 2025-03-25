@@ -44,7 +44,7 @@ ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
 > - Language : Python
 > - Libraries : Numpy, OpenCV, Opend3D
 > - SLAM & LiDAR : FAST_LIO2
->> [Project](https://github.com/minmaxHong/Shark_MORAI_Simulator_for_AutonomousDriving)
+>> [Project](https://github.com/jongmyeongpark/jongmyeongPark_portfolio/tree/main/Shark_MORAI_contest_AutonomousDriving)
 
 <br />
 
@@ -56,7 +56,7 @@ ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
 > - 핵심 역할 : Vision팀, 차선, 신호등 인지 및 Camera-LiDAR Calibration
 > - Language : Python, C++
 > - Libraries : Numpy, OpenCV, Pytorch, Open3D
->> [https://github.com/jongmyeongpark/jongmyeongPark_portfolio/tree/main/3DLiDAR_Camera_Calibration)<br>
+>> [Camera & LiDAR sensor fusion](https://github.com/jongmyeongpark/jongmyeongPark_portfolio/tree/main/3DLiDAR_Camera_Calibration)<br>
 >> [First Preliminary Round](https://www.youtube.com/watch?v=BuifRXkDtxM)<br>
 >> [Second Preliminary Round](https://www.youtube.com/watch?v=bsNJADrdTH0)<br>
 >> [Final Round, 3:00:02~3:13:00](https://www.youtube.com/watch?v=dPtdy3fO3pk&t=16231s)
