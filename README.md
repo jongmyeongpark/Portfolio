@@ -56,9 +56,7 @@ ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
 > - 핵심 역할 : Vision팀, 차선, 신호등 인지 및 Camera-LiDAR Calibration
 > - Language : Python, C++
 > - Libraries : Numpy, OpenCV, Pytorch, Open3D
->> [Camera-LiDAR Calibration](https://github.com/minmaxHong/Camera-3DLiDAR_Calibration)<br>
->> [LiDAR, Lane Detection](https://github.com/minmaxHong/LiDAR_lanedetection)<br>
->> [YOLOv8-segmentation, Lane Detection](https://github.com/minmaxHong/yolov8-seg_lanedetection)<br>
+>> [https://github.com/jongmyeongpark/jongmyeongPark_portfolio/tree/main/3DLiDAR_Camera_Calibration)<br>
 >> [First Preliminary Round](https://www.youtube.com/watch?v=BuifRXkDtxM)<br>
 >> [Second Preliminary Round](https://www.youtube.com/watch?v=bsNJADrdTH0)<br>
 >> [Final Round, 3:00:02~3:13:00](https://www.youtube.com/watch?v=dPtdy3fO3pk&t=16231s)
