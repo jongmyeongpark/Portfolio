@@ -69,6 +69,7 @@ ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
 # 📞 Contact
 
 - 이메일 : whdaud0905@naver.com
+- 노션 : <a href="[https://velog.io/@macaron_6pjm/posts](https://www.notion.so/104a4ee79fa88073a326e4358f6fe187)"> 
 - 블로그 : <a href="https://velog.io/@macaron_6pjm/posts">
   <img src="https://user-images.githubusercontent.com/68724828/185885678-8f619bfa-1160-4bb4-a026-f758a4014f82.png" height="26px" style="margin-top: 10px" />
   </a>
