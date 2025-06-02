@@ -37,7 +37,7 @@ rosrun [catkin_ws/'your_directory'] multi_cam_4tracking.py
 rosrun [catkin_ws/'your_directory'] calibration.py
 ```
 
-If it doesn't run well, please look at the profile and contact us via "landsky1234@naver.com" email!
+If it doesn't run well, please look at the profile and contact us via "whdaud0905@naver.com" email!
 
 ## Result
 - https://www.youtube.com/watch?v=eNP2A6OB6Zw
