@@ -34,7 +34,7 @@ roslaunch fast_lio mapping_velodyne_morai_launch
 rosrun [catkin_ws/'your_directory'] mission_state.py or rosrun [catkin_ws/'your_directory'] mission_state_bon.py
 ```
 
-If it doesn't run well, please look at the profile and contact us via "landsky1234@naver.com" email!
+If it doesn't run well, please look at the profile and contact us via "whdaud0905@naver.com" email!
 
 ## Scenario
 [Download from GoogleDrive](https://drive.google.com/drive/folders/1sBTfBEsG0oSAXzzPXgU61zWrStDhcfgR?usp=sharing)
