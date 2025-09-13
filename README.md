@@ -10,7 +10,7 @@ Skill        | Experiences | Note
 Python       | 2 년        | 실시간 LiDAR 데이터 처리,LiDAR & Camera sensor fusion 
 C++          | 1 년        | 실시간 LiDAR 데이터 처리
 C,Verilog    | 1 년        | 전공 수업
-ROS          | 1 년        | 자율주행 플랫폼 ERP-42 통신
+ROS          | 2 년        | 자율주행 플랫폼 ERP-42 통신
 
 
 # 👋 Intro
