@@ -102,10 +102,34 @@ Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang 
 
 ---
 
-# 📞 Contact
+## 📚 Publications
 
-* Email: [whdaud0905@naver.com](mailto:whdaud0905@naver.com)
-* Notion Portfolio
-* Velog Blog
-* GitHub
-* YouTube
+### Conference Papers
+
+**J. Park, C. Kim, T. Ham, D. Kim, and W. Lee**,
+*"On the Performance of Random Access in ISAC Systems: A Perspective on the Similarity between Zadoff-Chu Sequence and FMCW Signal,"*
+Proceedings of the Korean Institute of Communications and Information Sciences (KICS) Winter Conference, 2025.
+
+🔗 Paper:
+https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12132351
+
+---
+
+## 🌐 Professional Profiles
+
+### LinkedIn
+
+http://www.linkedin.com/in/jongmyeong-park-915b2a391
+
+### GitHub
+
+https://github.com/jongmyeongpark
+
+### Blog (Velog)
+
+https://velog.io/@macaron_6pjm/posts
+
+### Notion Portfolio
+
+https://www.notion.so/104a4ee79fa88073a326e4358f6fe187
+
