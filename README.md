@@ -32,6 +32,16 @@ My interests include:
 
 Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang University, conducting research in autonomous driving perception and intelligent vehicle systems.
 
+## 🔬 Research Interests
+
+- Autonomous Driving Perception
+- LiDAR, Radar, Camera Sensor Fusion
+- Object Detection and Tracking
+- SLAM and Localization
+- Multi-Modal Perception
+- Radar Perception
+- Embedded AI Systems
+- Autonomous Vehicle Software Validation
 ---
 
 # 📝 Projects
