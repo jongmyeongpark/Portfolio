@@ -58,7 +58,22 @@ Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang 
 * KICS Winter Conference 2025 (Outstanding Paper Award), 2025.02
 * ISTQB CTFL Certified Tester, 2025.03
 * TRUEN Internship (Firmware & Imaging Team), 2025.03 ~ 2025.06
-* Automotive Intelligence Laboratory, Hanyang University, 2025.06 ~ Present
+* Automotive Intelligence Laboratory, Hanyang University, 2025.06 ~ Present → [`AI_Lab_Study/`](./AI_Lab_Study)
+
+---
+
+# 📁 Repository Structure
+
+| Folder | Related Activity |
+| ------ | ---------------- |
+| [`macaron_06_2024/`](./macaron_06_2024) | MACARON 6.0 autonomous driving platform — K-City / FMTC testing (ERP-42, ROS) |
+| [`Shark_MORAI_contest_AutonomousDriving/`](./Shark_MORAI_contest_AutonomousDriving) | SHARK Autonomous Driving Competition — MORAI simulator (Excellence Award) |
+| [`3DLiDAR_Camera_Calibration/`](./3DLiDAR_Camera_Calibration) | Camera–LiDAR sensor fusion & calibration for rubber-cone perception |
+| [`Capstone Design value up contest/`](./Capstone%20Design%20value%20up%20contest) | Capstone Design Competition — YOLOv5 helmet detection (Encouragement Award) |
+| [`Woong Lab/`](./Woong%20Lab) | Next-Gen Wireless Optimization Lab — KICS 2025 paper (ISAC: Zadoff-Chu vs. FMCW) |
+| [`AI_Lab_Study/`](./AI_Lab_Study) | Automotive Intelligence Lab — state estimation & deep learning study |
+| [`Mediapipe 툴을 이용한 Resize code 분석 보고서.pdf`](./Mediapipe%20%ED%88%B4%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20Resize%20code%20%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf) | TRUEN internship — MediaPipe resize code analysis report |
+| [`car.py`](./car.py) | Vehicle steering-control practice (Pygame path following) |
 
 ---
 
@@ -109,6 +124,16 @@ Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang 
   * OpenCV
   * PyTorch
   * Open3D
+
+---
+
+## 🧪 AI Lab Study (Hanyang University)
+
+Study & practice at the **Automotive Intelligence Laboratory** → [`AI_Lab_Study/`](./AI_Lab_Study)
+
+* **Optimal State Estimation Practice** — Kalman Filter, Extended Kalman Filter, and Particle Filter implemented from scratch in NumPy (free-fall & 2D vehicle tracking) — [folder](./AI_Lab_Study/Optimal-State-Estimate-Practice)
+* **AUE8088 PA1 — Neural Networks from Scratch** — forward/backpropagation by hand (NumPy only) for driving-behavior classification from IMU data — [folder](./AI_Lab_Study/2026-HYU-AUE8088-PA1)
+* **AUE8088 PA2 — Active Data Curation Challenge** — multi-task scene classification on BDD100K with CNNs & Vision Transformers, plus a data-curation strategy — [folder](./AI_Lab_Study/2026-HYU-AUE8088-PA2)
 
 ---
 
