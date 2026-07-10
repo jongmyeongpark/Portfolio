@@ -1,4 +1,18 @@
-# macaron_6
+# 🚘 MACARON 6.0 — K-City Autonomous Driving
+
+Autonomous driving platform (ERP-42, ROS) used for K-City / FMTC testing.
+
+## 🎬 K-City SCC Demo
+
+Smart Cruise Control (SCC) mission at the K-City testbed.
+
+<video src="https://github.com/jongmyeongpark/Portfolio/raw/main/macaron_06_2024/media/kcity_scc_demo.mp4" controls muted width="720"></video>
+
+▶️ If the player above doesn't load, [click here to watch the K-City SCC demo](https://github.com/jongmyeongpark/Portfolio/raw/main/macaron_06_2024/media/kcity_scc_demo.mp4).
+
+---
+
+## ⚙️ Run Order (notes)
 
 usb port : imu -> erp -> gps
 

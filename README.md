@@ -126,6 +126,7 @@ Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang 
   * OpenCV
   * PyTorch
   * Open3D
+* 🎬 Demo: [K-City SCC (Smart Cruise Control) run](./macaron_06_2024#-k-city-scc-demo) — see [`macaron_06_2024/`](./macaron_06_2024)
 
 ---
 
