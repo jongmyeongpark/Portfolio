@@ -59,6 +59,7 @@ Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang 
 * ISTQB CTFL Certified Tester, 2025.03
 * TRUEN Internship (Firmware & Imaging Team), 2025.03 ~ 2025.06
 * Automotive Intelligence Laboratory, Hanyang University, 2025.06 ~ Present → [`AI_Lab_Study/`](./AI_Lab_Study)
+* 2025 Summer Internship — F1TENTH Autonomous Racing, 2025.08 → [`2025_Summer_Internship_F1TENTH/`](./2025_Summer_Internship_F1TENTH)
 
 ---
 
@@ -72,6 +73,7 @@ Currently, I am pursuing a Master's degree in Automotive Engineering at Hanyang 
 | [`Capstone Design value up contest/`](./Capstone%20Design%20value%20up%20contest) | Capstone Design Competition — YOLOv5 helmet detection (Encouragement Award) |
 | [`Woong Lab/`](./Woong%20Lab) | Next-Gen Wireless Optimization Lab — KICS 2025 paper (ISAC: Zadoff-Chu vs. FMCW) |
 | [`AI_Lab_Study/`](./AI_Lab_Study) | Automotive Intelligence Lab — state estimation & deep learning study |
+| [`2025_Summer_Internship_F1TENTH/`](./2025_Summer_Internship_F1TENTH) | 2025 Summer Internship — F1TENTH autonomous racing (demo video + photos) |
 | [`Mediapipe 툴을 이용한 Resize code 분석 보고서.pdf`](./Mediapipe%20%ED%88%B4%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20Resize%20code%20%EB%B6%84%EC%84%9D%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf) | TRUEN internship — MediaPipe resize code analysis report |
 | [`car.py`](./car.py) | Vehicle steering-control practice (Pygame path following) |
 
