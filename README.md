@@ -11,7 +11,7 @@
 | Skill       | Experience | Note                                                                       |
 | ----------- | ---------- | -------------------------------------------------------------------------- |
 | Python / C ++| 2 Years    | Real-time LiDAR processing, LiDAR-Camera Sensor Fusion                     |
-| C / Verilog | 1 Year     | Coursework and Digital Design                                              |
+| C / Verilog | 2 Year     | Coursework and Digital Design                                              |
 | ROS         | 2 Years    | Autonomous Driving Platform (ERP-42), Sensor Integration and Communication |
 
 ---
