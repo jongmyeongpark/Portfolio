@@ -1,4 +1,4 @@
-# 📜  JongMyeong Park Portfolio
+# 📜  Jongmyeong Park Portfolio
 
 > Name: Jong Myeong Park
 > Date of Birth: 1999-09-05
