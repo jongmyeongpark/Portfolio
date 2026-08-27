@@ -140,6 +140,22 @@ Study & practice at the **Automotive Intelligence Laboratory** → [`AI_Lab_Stud
 
 ---
 
+## 🎥 Demo Videos — YouTube Channel
+
+> ▶️ **[박종명 | 미래자동차공학과 | 한양대(서울)](https://www.youtube.com/@%EB%B0%95%EC%A2%85%EB%AA%85%EB%AF%B8%EB%9E%98%EC%9E%90%EB%8F%99%EC%B0%A8%EA%B3%B5%ED%95%99)** — `@박종명미래자동차공학`
+
+Research and project demo clips are collected on my YouTube channel. Most videos are RViz / ROS recordings captured while running the perception pipelines described in this portfolio.
+
+| Topic | What the videos show |
+| ----- | -------------------- |
+| **4D Radar 3D Object Detection** | PointPillars trained with **OpenPCDet** and deployed as a **ROS1** node, running on the **View-of-Delft (VOD)** 4D-radar dataset (`delft_1` / `delft_10` / `delft_20` bags). Side-by-side camera view and 3D bounding boxes (car / pedestrian / cyclist) over the radar point cloud in RViz. |
+| **Radar MODT (Multi-Object Detection & Tracking)** | Test-vehicle (T-car) radar tracking — per-track ID, class, score, velocity, acceleration and yaw-rate readouts. Includes a pedestrian tracking scene and a parameter-tuning run recorded outside K-City. |
+| **K-City SCC (Smart Cruise Control)** | In-vehicle recording of the Smart Cruise Control mission at the K-City testbed (MACARON 6.0 / ERP-42). Also mirrored here → [`macaron_06_2024/`](./macaron_06_2024#-k-city-scc-demo) |
+
+**Stack shown in the videos:** ROS1 · RViz · OpenPCDet (PointPillars) · PyTorch · 4D Radar (VOD dataset) · LiDAR · Multi-Object Tracking
+
+---
+
 ## 📚 Publications
 
 ### Conference Papers
@@ -170,4 +186,8 @@ https://velog.io/@macaron_6pjm/posts
 ### Notion Portfolio
 
 https://www.notion.so/104a4ee79fa88073a326e4358f6fe187
+
+### YouTube (Project & Research Demos)
+
+https://www.youtube.com/@%EB%B0%95%EC%A2%85%EB%AA%85%EB%AF%B8%EB%9E%98%EC%9E%90%EB%8F%99%EC%B0%A8%EA%B3%B5%ED%95%99
 
